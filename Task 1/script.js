@@ -1,5 +1,5 @@
 
-functioncall = (event) =>{
+functioncall = (call) =>{
 	
-	console.log("Id = ", event.target.id);
+	console.log("Id = ", call.target.id);
 };
